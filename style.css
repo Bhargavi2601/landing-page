@@ -1,0 +1,151 @@
+/* ...........body styles........... */
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+/* ..........header style............ */
+#nav-size{
+  padding: auto;
+}
+
+
+
+/* header text */
+#header-text{
+  color:white;
+  padding-top: 20px;
+  font-size: 170px;
+  font-weight: 70px;
+  animation: back 20s linear infinite;
+
+ @keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+}
+/* header image */
+#header-img{
+  height: 395px;
+  width: 740px;
+  margin-top: 200px;
+  margin-left: 20px;
+}
+/* Down arrow */
+#downarrow-logo {
+  width: 7%;
+  animation: down-arrow 3s linear 0s infinite normal forwards;
+}
+@keyframes down-arrow {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+/*.............. About us.............. */
+
+#aboutus{
+  
+  background-color: white;
+  padding-bottom: 8rem 2rem;
+
+}
+/* about us image */
+#aboutus-img{
+  width: 500px;
+  height: 800px;
+  
+  margin-left: 15%;
+  padding-top: 15%;
+  }
+/* about us head */
+  #aboutus-head{
+    text-align: justify;
+    padding-left: 100px;
+
+  }
+  /* about us text */
+  #aboutus-text{
+  padding: 1rem 0rem 0rem 0rem;
+  padding-top: 5%;
+
+  }
+  #about-font-size{
+    line-height: 1.5;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /*..........our services............  */
+#OurServices{
+padding: 5rem 3rem 8rem 3rem;
+margin-top: 0.5%;
+}
+.service-head{
+  margin-left: 5%;
+
+  font-weight: 700px;
+  font-size: 200px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  
+}
+.horizontally-scroll{
+  padding: 5%;
+  border: rgb(222, 219, 219);
+  overflow-x: scroll;
+}
+
+.horizontally-scroll::-webkit-scrollbar{
+  height: 15px;
+}
+.horizontally-scroll::-webkit-scrollbar-thumb {
+  background: #434446;
+  border-radius: 10px;
+}
+.horizontally-scroll::-webkit-scrollbar-thumb:hover {
+  background: #434646;
+}
+#card-style{
+  padding-top: 5%;
+  padding: 5rem;
+  margin: 2rem;
+  margin-left: 0.2rem;
+  height: 30%;
+  width: 35%;
+  
+}
+#card-style:hover{
+  background-color: black;
+  color: rgb(238, 238, 241);
+  transition-delay: 0.3s;
+} 
+/* .............footer............. */
+footer{
+  text-align: center;
+}
+#id-tag{
+  text-decoration: none;
+}
+/* contact us */
+#contactus{
+  display: block;
+  padding: 10rem 10rem;
+  color:rgb(247, 240, 240);
+  background-color:black ;
+}
+#contactus-head{
+  color: #f8fbfc;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
